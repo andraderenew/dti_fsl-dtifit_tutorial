@@ -1,6 +1,6 @@
 # Data Sources & Disk Notes
 
-- Dataset: <name> — <link> — License/DUA: <text>
-- Subset downloaded: <N subjects/sessions> (list IDs if small)
-- Disk budget (target): raw ~<X GB>, derivatives ~<Y GB>
-- Notes: use BIDS layout when possible; do NOT commit raw data.
+- Dataset: **FSL DTI tutorial** — link: <oficial> — License: docente.
+- Subset downloaded: 1 subject (bvals/bvecs incluidos).
+- Disk budget: raw cientos de MB; derivados ligeros (FA/MD + ROI table).
+- Notes: estructura estándar FSL; no subir datos crudos.

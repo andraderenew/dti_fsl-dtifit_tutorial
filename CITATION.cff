@@ -10,3 +10,5 @@ abstract: "Compact DTI pipeline (TOPUP/EDDY if available) to compute FA/MD and s
 license: "MIT"
 repository-code: "https://github.com/andraderenew/dti_fsl-dtifit_tutorial"
 url: "https://scholar.google.es/citations?hl=es&user=Nl3ApFEAAAAJ"
+
+doi: "10.5281/zenodo.17715109"

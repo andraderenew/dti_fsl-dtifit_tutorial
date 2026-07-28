@@ -12,6 +12,7 @@ repository-code: "https://github.com/andraderenew/dti_fsl-dtifit_tutorial"
 url: "https://github.com/andraderenew/dti_fsl-dtifit_tutorial"
 version: "0.1.1"
 date-released: "2026-07-28"
+doi: "10.5281/zenodo.21650517"
 keywords:
   - "diffusion MRI"
   - "DTI"

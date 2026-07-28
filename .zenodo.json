@@ -7,9 +7,12 @@
     }
   ],
   "title": "Diffusion MRI — FSL DTIFIT tutorial workflow",
-  "description": "Portfolio scaffold for a compact FSL diffusion-tensor workflow covering optional TOPUP and EDDY correction, DTIFIT estimation, FA and MD maps, ROI summaries, and documented limitations. The repository currently describes a planned workflow and does not claim completed quantitative results.",
+  "description": "Portfolio scaffold for a compact FSL diffusion-tensor workflow covering optional TOPUP and EDDY correction, DTIFIT estimation, FA and MD maps, ROI summaries, and documented limitations. The repository describes a planned workflow and does not claim completed quantitative results.",
   "version": "0.1.1",
+  "upload_type": "software",
   "access_right": "open",
+  "license": "mit",
+  "language": "eng",
   "keywords": [
     "diffusion MRI",
     "DTI",
@@ -20,9 +23,6 @@
     "tutorial",
     "neuroimaging"
   ],
-  "license": "mit",
-  "upload_type": "software",
-  "language": "eng",
   "notes": "Portfolio scaffold. The archived repository documents a planned workflow and does not claim completed scientific results.",
   "related_identifiers": [
     {

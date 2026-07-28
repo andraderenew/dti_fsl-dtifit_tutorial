@@ -1,12 +1,12 @@
 cff-version: 1.2.0
 title: "Diffusion MRI — FSL DTIFIT tutorial workflow"
-message: "If you use this project, please cite it as below."
+message: "Please cite this software using the metadata below."
 type: software
 authors:
   - family-names: "Andrade Rey"
     given-names: "Rene"
     orcid: "https://orcid.org/0000-0001-5627-579X"
-abstract: "Portfolio scaffold for a compact FSL diffusion-tensor workflow covering optional TOPUP and EDDY correction, DTIFIT estimation, FA and MD maps, ROI summaries, and documented limitations. The repository currently describes a planned workflow and does not claim completed quantitative results."
+abstract: "Portfolio scaffold for a compact FSL diffusion-tensor workflow covering optional TOPUP and EDDY correction, DTIFIT estimation, FA and MD maps, ROI summaries, and documented limitations. The repository describes a planned workflow and does not claim completed quantitative results."
 license: "MIT"
 repository-code: "https://github.com/andraderenew/dti_fsl-dtifit_tutorial"
 url: "https://github.com/andraderenew/dti_fsl-dtifit_tutorial"

@@ -33,5 +33,5 @@ No scientific results should be cited from this repository.
 
 ## Author
 
-Rene Andrade Rey  
+Rene Andrade Rey
 ORCID: 0000-0001-5627-579X

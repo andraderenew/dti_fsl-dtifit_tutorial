@@ -1,31 +1,37 @@
-# Diffusion MRI — DTIFIT (FA/MD) on tutorial data
-[![License](https://img.shields.io/github/license/andraderenew/dti_fsl-dtifit_tutorial)](LICENSE)
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17715109-blue)](https://doi.org/10.5281/zenodo.17715109)
-[![Pages](https://img.shields.io/website?url=https%3A%2F%2Fandraderenew.github.io%2Fdti_fsl-dtifit_tutorial%2F)](https://andraderenew.github.io/dti_fsl-dtifit_tutorial/)
-![Release](https://img.shields.io/github/v/release/andraderenew/dti_fsl-dtifit_tutorial?include_prereleases)
-![Last commit](https://img.shields.io/github/last-commit/andraderenew/dti_fsl-dtifit_tutorial)
-[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5627--579X-A6CE39)](https://orcid.org/0000-0001-5627-579X)
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profile-4285F4)](https://scholar.google.es/citations?hl=es&user=Nl3ApFEAAAAJ)
+# Superseded — DTI FSL DTIFIT tutorial scaffold
 
-**One-line:** Compact DTI pipeline (TOPUP/EDDY if available) to compute FA/MD and summarize a few anatomical ROIs.
+> **This repository is archived and no longer represents the maintained diffusion MRI portfolio project.**
 
-## Overview
-Minimal **DTI** pipeline with **FSL**: (TOPUP/EDDY if available) → **DTIFIT** → FA/MD maps and a couple of ROI summaries; optional mini-TBSS.
+The original repository was created as a planning scaffold for a compact FSL DTIFIT demonstration. It did not progress to a completed scientific analysis and does not contain final diffusion results, figures, or a reproducible processing workflow.
 
-## Data & subset
-See `DATA_SOURCES.md`. Suggested: 1 subject; disk in hundreds of MB.
+The completed and maintained diffusion MRI project is:
 
-## Pipeline
-TOPUP/EDDY (if AP/PA pairs) → DTIFIT → ROI means (e.g., corpus callosum) → (opt) TBSS with a few subjects.
+## Diffusion MRI: MRtrix3 + FSL single-subject workflow
 
-## Results (to be filled)
-- FA/MD slices (PNG)  
-- ROI table (FA/MD)
+https://github.com/andraderenew/diffusion-mri_mrtrix3_fsl_single_subject
 
-## Reproducibility
-- Versions: see `env/TOOL_VERSIONS.md`  
-- Steps: “Run corrections → DTIFIT → extract ROIs → figures.”  
-- Limits: single-subject demo
+That project contains a validated single-subject workflow using public MPI-LEMON diffusion MRI data, including:
 
-## Cite this work
-See `CITATION.cff` (add DOI after first Release).
+- MP-PCA denoising
+- Gibbs-ringing correction
+- FSL Eddy preprocessing
+- diffusion tensor fitting
+- FA, MD, AD and RD maps
+- constrained spherical deconvolution
+- probabilistic tractography
+- SIFT filtering
+- quantitative QC
+- publication-ready figures and tables
+
+This repository is retained only for historical provenance.
+
+## Status
+
+**Superseded / archived**
+
+No scientific results should be cited from this repository.
+
+## Author
+
+Rene Andrade Rey
+ORCID: 0000-0001-5627-579X
